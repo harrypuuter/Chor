@@ -6,6 +6,7 @@
 !*.ps
 !.gitignore
 !index.html
+!*.md
 !generate.py
 !update*.sh
 !*.png
