@@ -5,3 +5,11 @@
 !*.midi
 !*.ps
 !.gitignore
+!index.html
+!*.md
+!generate.py
+!update*.sh
+!*.png
+!feed.rss
+!*.abw
+!*.rtf
