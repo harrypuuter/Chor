@@ -1,0 +1,34 @@
+name: _error
+timestamp: 1542406255
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: _error
+  timestamp: 1542404021
+positions:
+  footer: Footer
+sections:
+  header: Header
+  navigation: Navigation
+  main: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-2351: Logo
+  spacer:
+    spacer-9180: Spacer
+    spacer-5837: Spacer
+  menu:
+    menu-2597: Menu
+  content:
+    system-content-7970: 'Page Content'
+  position:
+    position-footer: Footer
+  copyright:
+    copyright-8913: Copyright
+  branding:
+    branding-8219: Branding
+  mobile-menu:
+    mobile-menu-6828: Mobile-menu
+inherit: {  }
