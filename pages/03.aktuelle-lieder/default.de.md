@@ -6,4 +6,5 @@ title: 'Aktuelle Lieder'
 
 | Titel | Interpret | Links |
 | :----------------------- | :------------------- | :--------------------|
-|Joy to the World | Traditionell | [PDF](good_news_in_the_kingdom.pdf) |
+|Joy to the World | Traditionell | [PDF](../../data/song_database/weihnachten_neu/joy_to_the_world/joy_to_the_world.pdf) |
+|Good New in the Kingdom | Traditionell | [PDF](../../data/song_database/weihnachten_neu/good_news_in_the_kingdom/good_news_in_the_kingdom.pdf) |
