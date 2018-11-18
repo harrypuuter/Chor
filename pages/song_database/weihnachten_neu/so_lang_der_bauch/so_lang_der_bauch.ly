@@ -13,12 +13,12 @@ global = {
 sopranoVoice = \relative c'' {
   \global
   \dynamicUp
-  g4
-  c8 c8 b8 b16 b16 a8 a8 g8  g8 a8 a8 g8 g8 f8 f8 e4. \break
+  \partial g8
+  c8 c8 b8 b16 b16 a8 a8 g8  g8 a8 a8 g8 g8 f8 f8 e8 \break
 
-  r8 g16 g16 g4. g16 g16 g4. g8 g8 f8 e8 d8 c4 \break
+  g16 g16 g4. g16 g16 g4. g8 g8 f8 e8 d8 c4 \break
  g'4 
-  c8 c8 b8 b8 a8 a8 g8 g8 f8 d8 g8 g8 c4. \bar "|."
+  c8 c8 b8 b8 a8 a8 g8 g8 f8 d8 g8 g8 c,4. \bar "|."
   
 }
 
@@ -33,11 +33,11 @@ verse = \lyricmode {
 
 \score {
   \new Staff \with {
-    midiInstrument = "choir aahs"
+    midiInstrument = "aahs choir"
   } { \sopranoVoice }
   \addlyrics { \verse }
   \layout { }
   \midi {
-        \context {\Score tempoWholesPerMinute = #(ly:make-moment 100 4)}3
+        \context {\Score tempoWholesPerMinute = #(ly:make-moment 100 4)}
   }
 }
