@@ -2,7 +2,7 @@
 
 global = {
   \key c \major
-  \time 4/8
+  \time 2/4
 }
 \header {
   title = "Solang der Bauch in die Weste passt "
@@ -13,7 +13,7 @@ global = {
 sopranoVoice = \relative c'' {
   \global
   \dynamicUp
-  \partial g8
+  \partial 4 g4
   c8 c8 b8 b16 b16 a8 a8 g8  g8 a8 a8 g8 g8 f8 f8 e8 \break
 
   g16 g16 g4. g16 g16 g4. g8 g8 f8 e8 d8 c4 \break
