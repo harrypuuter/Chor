@@ -10,3 +10,4 @@ Neue Lieder seit Oktober 2018
 | Good News in the Kingdom | Weihnachten | Traditionell | [PDF](pages/song_database/weihnachten_neu/good_news_in_the_kingdom/good_news_in_the_kingdom.pdf) |
 | Hark the Herald | Weihnachten |  | [PDF](pages/song_database/weihnachten_neu/hark_the_herald/hark_the_herald_angels_sing.pdf) |
 | O Heiland | Weihnachten | | [PDF](pages/song_database/weihnachten_neu/o_heiland/o_heiland.pdf) |
+| **Good News (Chariots Comin)** | Weihnachten | | [PDF](pages/song_database/weihnachten_neu/good_news/good_news.pdf) |
