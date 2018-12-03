@@ -23,46 +23,46 @@ global = {
 soprano = \relative c' {
   \global
   \repeat volta 2 { b'4
-  b2. r8 b8( b8) b8 a4 g8 g8 b4 a2. r8 b8(b8) b8 a4 g8 g8 b4 
-  b2. r8 b8(b8) b8 a4 g8 g8 g8 a8 b8 b4 b8 a8 a8 a8 a8 g2.  }
+  b2. r8 b8~b8 b8 a4 g8 g8 b4 a2. r8 b8~b8 b8 a4 g8 g8 b4 
+  b2. r8 b8~b8 b8 a4 g8 g8 c8 c8 b8 b4 b8 a4 a8 a8 g2.  }
   % Vers
   \repeat volta 2 { g8 e8 
-  d4 e4 d4 e8 e8 g8 g8 b8 g8( g2)( g1) r2 r4 e8 e8
-  d4 e4 d4 e8 e8 g8 g8 b8 g8(g4) c8 c8 b8 b4 b8 a8 a8 a8 a8 g2. }
+  d4 e4 d4 e8 e8 g8 g8 b8 g8~g2~g1 r2 r4 e8 e8
+  d4 e4 d4 e8 e8 g8 g8 b8 g8~g4 c8 c8 b8 b4 b8 a4 a8 a8 g2. }
 }
 
 alto = \relative c' {
   \global
   g'4
-  g2. r8 g8(g8) g8 fis4 g8 g8 g4 fis2. r8 g8(g8) g8 fis4 g8 g8 g4
-  g2. r8 g8(g8) g8 fis4 g8 g8 g8 g8 g8 g4 g8 fis8 fis8 fis8 fis8 d2.
+  g2. r8 g8~g8 g8 fis4 g8 g8 g4 fis2. r8 g8~g8 g8 fis4 g8 g8 g4
+  g2. r8 g8~g8 g8 fis4 g8 g8 g8 g8 g8 g4 g8 fis4 fis8 fis8 d2.
   % Vers
   r4 r1 r2 r4 r8 d8 g4 e4 d4 c8 c8 b8 b8 a4 g4 c8 c8
-  b4 c4 b4 c8 c8 d8 d8 d8 e8(e4) e8 e8 d8 d4 d8 d8 d8 c8 c8 b2.
+  b4 c4 b4 c8 c8 d8 d8 d8 e8~e4 e8 e8 d8 d4 d8 d4 c8 c8 b2.
 
 }
 
 tenor = \relative c {
   \global
-  d'4 d2. r8 d8(d8) d8 c4 b8 b8 d4 c2. r8 d8(d8) d8 c4 b8 b8 d4 
-  d2. r8 d8(d8) d8 c4 b8 b8 e8 e8 d8 d4 d8 d8 d8 c8 c8 b2. 
+  d'4 d2. r8 d8~d8 d8 c4 b8 b8 d4 c2. r8 d8~d8 d8 c4 b8 b8 d4 
+  d2. r8 d8~d8 d8 c4 b8 b8 e8 e8 d8 d4 d8 d4 c8 c8 b2. 
  % Vers
- g8 e8 d4 e4 d4 e8 e8 g8 g8 b8 g8(g2)(g1) r2 r4
- g8 g8 g4 g4 g4 g8 g8 g8 g8 g8 g8(g4) g8 g8 g8 g4 g8 fis8 fis8 fis8 fis8 g2.
+ g8 e8 d4 e4 d4 e8 e8 g8 g8 b8 g8~g2~g1 r2 r4
+ g8 g8 g4 g4 g4 g8 g8 g8 g8 g8 g8~g4 g8 g8 g8 g4 g8 fis4 fis8 fis8 g2.
 }
 
 bass = \relative c {
   \global
- g'4 g2. r8 g8(g8) g8 g4 g8 g8 g4 d2. r8 d8(d8) d8 d4 g8 g8 g4 
- g2. r8 g8(g8) g8 d4 e8 e8 c8 c8 d8 d4 d8 d8 d8 d8 d8 g,2.
+ g'4 g2. r8 g8~g8 g8 g4 g8 g8 g4 d2. r8 d8~d8 d8 d4 g8 g8 g4 
+ g2. r8 g8~g8 g8 d4 e8 e8 c8 c8 d8 d4 d8 d4 d8 d8 g,2.
  %Vers
  r4 r1 r2 r4 r8 d'8 g4 e4 d4 c8 c8 b8 b8 a4 g4 
- g8 g8 g4 g4 a4 a8 a8 b8 b8 b8 e8(e4) a,8 c8 d8 d4 d8 d8 d8 d8 d8 g,2.
+ g8 g8 g4 g4 a4 a8 a8 b8 b8 b8 e8~e4 a,8 c8 d8 d4 d8 d4 d8 d8 g,2.
 }
 refOne = \lyricmode {
   \set stanza = "Ref."
   Good News, char -- i -- ot's com -- in', good news, char -- i -- ot's com -- in', good news,
-  char -- i -- ot's cam -- in', and I don't want to lea -- ve me be -- hind.
+  char -- i -- ot's com -- in', and I don't want to leave me be -- hind.
 }
 
 texthigh =  \lyricmode {
@@ -76,7 +76,7 @@ textlow = \lyricmode {
 }
 
 refTwo = \lyricmode {
-  There's a long white robe in the hea -- ven i know, and I don't want to lea -- ve me be -- hind.
+  There's a long white robe in the hea -- ven i know, and I don't want to leave me be -- hind.
 }
 
 
@@ -89,7 +89,7 @@ refTwo = \lyricmode {
       \new Voice = "alto" { \voiceTwo \alto }
     >>
     \new Lyrics \lyricsto "soprano" {\refOne \texthigh \refTwo}
-    \new Lyrics \lyricsto "alto" {\lskip 31 \textlow \refTwo }
+    \new Lyrics \lyricsto "alto" {\lskip 30 \textlow \refTwo }
     \new Staff \with {
     } <<
       \clef bass
@@ -97,7 +97,7 @@ refTwo = \lyricmode {
       \new Voice = "bass" { \voiceTwo \bass }
     >>
    \new Lyrics \lyricsto "tenor" {\refOne \texthigh \refTwo}
-    \new Lyrics \lyricsto "bass" {\lskip 31 \textlow \refTwo}
+    \new Lyrics \lyricsto "bass" {\lskip 30 \textlow \refTwo}
   >>
   \layout {
     \context {

@@ -3,6 +3,7 @@
 \header {
   title = "O Heiland, reiß die Himmel auf"
   poet = "Friedrich Spee"
+  arranger = "Satz: Dominik Scherer"
 }
 
 \paper {
@@ -42,7 +43,7 @@ tenor = \relative c {
 bass = \relative c {
   \global
   d4 d2 c4 f2 d4 g,4 a2 d2.
-  f,4 f g c2 d4 b4 c2 f,2 r4
+  f,4 f g c2 d4 bes4 c2 f,2 r4
   c'4 c c d2 d4 g,2 g4 c2.
   a4 a a d2 d4 g,4 a2 d
 }
@@ -64,15 +65,15 @@ verseTwo = \lyricmode {
 }
 
 verseThree = \lyricmode {
+  \set stanza = "5."
+  O kla -- re Sonn, du schö -- ner Stern,
+  dich woll -- ten wir an -- schau -- en gern.
+  O Sonn, geh auf, ohn dei -- nen Schein
+  in Fin -- ster -- nis wir al -- le sein.
+}
+
+verseFour = \lyricmode {
   \set stanza = "3."
-%   O kla -- re Sonn, du schö -- ner Stern,
-%   dich woll -- ten wir an -- schau -- en gern.
-%   O Sonn, geh auf, ohn dei -- nen Schein
-%   in Fin -- ster -- nis wir al -- le sein.
-% }
-% 
-% verseFour = \lyricmode {
-%   \set stanza = "4."
   O Erd, schlag aus, schlag aus, o Erd,
   dass Berg und Tal grün al -- les werd.
   O Erd, her -- für dies Blüm -- lein bring,
@@ -89,7 +90,7 @@ verseThree = \lyricmode {
     \new Lyrics \lyricsto "soprano" \verseOne
     \new Lyrics \lyricsto "soprano" \verseTwo
     \new Lyrics \lyricsto "soprano" \verseThree
-%     \new Lyrics \lyricsto "soprano" \verseFour
+    \new Lyrics \lyricsto "soprano" \verseFour
     \new Staff \with {
     } <<
       \clef bass
@@ -117,16 +118,16 @@ verseThree = \lyricmode {
         "komm, tröst uns hier im Jammertal."
       }
     }
-    \combine \null \vspace #0.1 %
-    \line {
-      \bold "5."
-      \column {
-        "O klare Sonn, du schöner Stern,"
-        "dich wollten wir anschauen gern;"
-        "o Sonn, geh auf, ohn deinen Schein"
-        "in Finsternis wir alle sein."
-      }
-    }
+%     \combine \null \vspace #0.1 %
+%     \line {
+%       \bold "5."
+%       \column {
+%         "O klare Sonn, du schöner Stern,"
+%         "dich wollten wir anschauen gern;"
+%         "o Sonn, geh auf, ohn deinen Schein"
+%         "in Finsternis wir alle sein."
+%       }
+%     }
     \combine \null \vspace #0.1 %
     \line {
       \bold "6."
