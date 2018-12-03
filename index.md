@@ -11,4 +11,4 @@ Neue Lieder seit Oktober 2018
 | Hark the Herald | Weihnachten |  | [PDF](pages/song_database/weihnachten_neu/hark_the_herald/hark_the_herald_angels_sing.pdf) |
 | O Heiland | Weihnachten | | [PDF](pages/song_database/weihnachten_neu/o_heiland/o_heiland.pdf) |
 | **Good News (Chariots Comin)** | Weihnachten | | [PDF](pages/song_database/weihnachten_neu/good_news/good_news.pdf) |
-| **Good News (Macht hoch die Tür)** | Weihnachten | | [PDF](pages/song_database/weihnachten_neu/macht_hoch/macht_hoch.pdf) |
+| **acht hoch die Tür** | Weihnachten | | [PDF](pages/song_database/weihnachten_neu/macht_hoch/macht_hoch.pdf) |
